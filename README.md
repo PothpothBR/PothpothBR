@@ -1,2 +1,2 @@
 
-<a href="https://c.tenor.com/UxAFEDoJk2cAAAAC/anime-oppai.gif"></a>
+<img src="https://c.tenor.com/UxAFEDoJk2cAAAAC/anime-oppai.gif"></img>
