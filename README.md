@@ -32,7 +32,7 @@ f(
   
 f(..., ...)
   
-// It's short, but inline its bigger
+// It's short, but in one line its bigger
 f_not_is_foo_its_only_f(
     ...do_somewone_in_here, ...do_more_somewone_in_here
 )
