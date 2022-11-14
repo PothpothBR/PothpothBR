@@ -88,6 +88,6 @@ int a, b, c, d, e, f;
   
 // It's short, but in one line its bigger
 int abc_abc_abc = 1234567890,
-    cde_cde_cde = 1234567890,
-    fgh_fgh_fgh = 1234567890;
+     cde_cde_cde = 1234567890,
+     fgh_fgh_fgh = 1234567890;
  ```
