@@ -14,10 +14,26 @@ Rules of Code by Me:
 * Keys/Ids/'Conf. File Keys' dot.case
 
 * Ao fechar chaves que não se encontram na mesma linha, devem ser colocadas solitariamente no mesmo escopo do dono delas.
-  ex:
+ex:
  ```C
 f(
     ...,
     ...
+)
+ ```
+* Código que pode ser reduzido, então deve ser reduzido.
+  ex:
+ ```C
+// It's short, reduce it
+f(
+    ...,
+    ...
+)
+  
+f(..., ...)
+  
+// It's short, but inline its bigger
+f_not_is_foo_its_only_f(
+    ...do_somewone_in_here, ...do_more_somewone_in_here
 )
  ```
