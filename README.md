@@ -15,8 +15,9 @@ Rules of Code by Me:
 
 * Ao fechar chaves que não se encontram na mesma linha, devem ser colocadas solitariamente no mesmo escopo do dono delas.
   ex:
- ```
+ ```C
 f(
+    ...,
     ...
 )
  ```
