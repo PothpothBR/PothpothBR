@@ -21,6 +21,44 @@ f(
     ...
 )
  ```
+* cada virgula que subscede-se em uma linha diferente, deve estar paralelo ao código com virgula da linha anterior.
+  ex:
+```
+// It's unaligned
+fNotIsFoo(..., ..., ...,
+    ..., ..., ...
+    ..., ..., ...
+)
+
+// In this special case, not beatiful
+fNotIsFoo(..., ..., ...,
+          ..., ..., ...
+          ..., ..., ...
+)
+
+// make separated
+fNotIsFoo(
+    ..., ..., ...,
+    ..., ..., ...
+    ..., ..., ...
+)
+ 
+// align it
+float abc_abc_abc,
+      cde_cde_cde,
+      fgh_fgh_fgh;
+  
+// this is horrible, separe
+unsigned short int abc_abc_abc,
+                   cde_cde_cde,
+                   fgh_fgh_fgh;
+  
+unsigned short int
+    abc_abc_abc,
+    cde_cde_cde,
+    fgh_fgh_fgh;
+```
+  
 * Código que pode ser reduzido, então deve ser reduzido.
   ex:
  ```C
@@ -33,7 +71,23 @@ f(
 f(..., ...)
   
 // It's short, but in one line its bigger
-f_not_is_foo_its_only_f(
+fNotIsFooItsOnlyF(
     ...do_somewone_in_here, ...do_more_somewone_in_here
 )
+  
+// Use ','  instead a multiple definitions
+int a;
+int b;
+int c;
+int d;
+int e;
+int f;
+  
+// The short type
+int a, b, c, d, e, f;
+  
+// It's short, but in one line its bigger
+int abc_abc_abc = 1234567890,
+    cde_cde_cde = 1234567890,
+    fgh_fgh_fgh = 1234567890;
  ```
