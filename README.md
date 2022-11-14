@@ -61,7 +61,7 @@ unsigned short int
   
 * Código que pode ser reduzido, então deve ser reduzido.
   ex:
- ```C
+ ```
 // It's short, reduce it
 f(
     ...,
