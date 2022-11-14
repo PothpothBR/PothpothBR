@@ -12,3 +12,11 @@ Rules of Code by Me:
 * Variables/Files/ in snake_case
 * Constants/Flags in SCREAMING_SNAKE_CASE
 * Keys/Ids/'Conf. File Keys' dot.case
+
+* Ao fechar chaves que não se encontram na mesma linha, devem ser colocadas solitariamente no mesmo escopo do dono delas.
+  ex:
+```
+f(
+    ...
+)
+```
