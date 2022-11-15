@@ -6,14 +6,14 @@
   <img height="160em" src="https://github-readme-stats.vercel.app/api?username=PothpothBR&show_icons=true&theme=dark&include_all_commits=true&count_private=true"/>
 </div>
 
-Rules of Code by Me:
+Weird perfectionist "Rules of Code":
 * Functions/Methods in camelCase
 * Structs/Classes/Objects in PascalCase
 * Variables/Files/ in snake_case
 * Constants/Flags in SCREAMING_SNAKE_CASE
 * Keys/Ids/'Conf. File Keys' dot.case
 
-* Ao fechar chaves que não se encontram na mesma linha, devem ser colocadas solitariamente no mesmo escopo do dono delas.
+* When closing keys that are not on the same line, they must be placed in the same scope as their owner.
 ex:
  ```C
 f(
@@ -21,7 +21,7 @@ f(
     ...
 )
  ```
-* cada virgula que subscede-se em uma linha diferente, deve estar paralelo ao código com virgula da linha anterior.
+* Each comma that follows on a different line must be parallel to the code with a comma of the previous line.
   ex:
 ```
 // It's unaligned
@@ -59,7 +59,7 @@ unsigned short int
     fgh_fgh_fgh;
 ```
   
-* Código que pode ser reduzido, então deve ser reduzido.
+* Code that can be shortened, so it must be shortened.
   ex:
  ```
 // It's short, reduce it
